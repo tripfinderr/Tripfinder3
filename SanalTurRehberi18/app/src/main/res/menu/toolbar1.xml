@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:title="Ana Sayfa" android:icon="@drawable/ic_home" android:id="@+id/AnaSayfa"/>
+    <item android:id="@+id/Destek" android:icon="@drawable/support" android:title="Destek" />
+    <item android:title="Hakkımızda" android:icon="@drawable/conversation" android:id="@+id/Hakkımızda"/>
+    <item android:title="Sıkça Sorulan Sorular" android:icon="@drawable/help32" android:id="@+id/SıkcaSorulanSorular"></item>
+    <item android:title="Çıkış Yap" android:icon="@drawable/logout" android:id="@+id/CikisYap"></item>
+</group>
+
+
+
+</menu>

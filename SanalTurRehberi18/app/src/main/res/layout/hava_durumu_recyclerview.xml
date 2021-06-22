@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="390dp"
+
+        android:layout_height="180dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layerback"
+            android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/SehirIsmi"
+            android:layout_width="213dp"
+            android:textColor="#FFFF"
+            android:layout_height="43dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="İstanbul"
+
+            android:textSize="25sp">
+
+
+        </TextView>
+
+            <TextView
+                android:id="@+id/IlceIsmi"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Pendik"
+
+                android:textColor="#FFFF"
+                android:textSize="20sp">
+
+
+            </TextView>
+
+            <TextView
+            android:id="@+id/Derece"
+            android:textColor="#FFFF"
+            android:layout_width="213dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="30°"
+            android:textSize="20sp">
+
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/havaDurumuImage"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/rainy">
+
+        </ImageView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

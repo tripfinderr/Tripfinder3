@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hakkimizda">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Hakkımızda"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="62dp"
+        android:ems="10"
+        android:enabled="false"
+        android:textColor="#000000"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Bu uygulama sizin Sanal Tur Rehberinizdir. İstanbul’un neresine giderseniz gidin, neresinde olursanız olun size en iyi şekilde gezi rehberliği yapmayı amaçlamaktadır. İstanbul’da görülmesi gereken yerleri sizlere tur şeklinde sunmaktadır. Tur içeriklerini inceleyerek kendi gezi rotanızı kendiniz oluşturabilirsiniz. Gitmek istediğiniz yeri aratabilir o bölgedeki cafe ve restoranlara ulaşabilirsiniz. Gezileriniz sırasında zamanınızı dolu dolu geçirmek ve eğlencenin doruklarına ulaşmak istiyorsanız doğru yerdesiniz. Bu uygulama sizin en rahat ve en hızlı şekilde gezmenize yardım etmeyi amaçlamaktadır. İyi Eğlenceler!"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
